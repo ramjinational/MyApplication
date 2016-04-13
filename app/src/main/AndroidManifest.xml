@@ -44,6 +44,10 @@
             android:name=".UpdateActivity"
             android:label="FitnessAssistant" >
         </activity>
+        <activity
+            android:name=".NewFoodChoice"
+            android:label="FitnessAssistant" >
+        </activity>
     </application>
 
 </manifest>
