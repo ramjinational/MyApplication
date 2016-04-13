@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#84d54a">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size"
+        android:textColor="#2e7d32"
+        android:id="@+id/sharefd"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:text="Share Food" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FoodName"
+        android:id="@+id/foodn"
+        android:textIsSelectable="false"
+        android:textSize="16dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/foodnf"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calories"
+        android:id="@+id/calor"
+        android:textSize="16dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/calf" />
+
+    <Button
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="SHARE!"
+        android:id="@+id/sharebtn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp" />
+</LinearLayout>
